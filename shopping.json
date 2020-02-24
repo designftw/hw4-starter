@@ -1,0 +1,44 @@
+{
+  items: [
+    {
+      id: 'i1',
+      name: 'milk',
+      unit: 'gallon'
+    },
+    {
+      id: 'i2',
+      name: 'egg',
+      unit: 'dozen'
+    },
+    {
+      id: 'i3',
+      name: 'cheese',
+      unit: 'slice'
+    }
+  ],
+  stores: [
+    {
+      id: 's1',
+      name: 'Golden Hall of Meduseld'
+    },
+    {
+      id: 's2',
+      name: 'White Tower of Minas Tirith'
+    }
+
+  ],
+  price: [
+    {
+      i1: {
+        's1': 2,
+        's2': 1.5
+      }
+    },
+    {
+      i3: {
+        's1': 6,
+        's2': 7
+      }
+    }
+  ]
+}
